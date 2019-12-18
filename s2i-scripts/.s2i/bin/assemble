@@ -9,6 +9,8 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
+/usr/libexec/s2i/assemble
+
 
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
